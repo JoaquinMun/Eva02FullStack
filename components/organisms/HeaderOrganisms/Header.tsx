@@ -5,7 +5,7 @@ import React from "react";
 
 const HeaderOrganism: React.FC = () => {
   return (
-    <header>
+    <header style={{background:"#030712"}} >
       <NavBar />
       <ProfileCard />
 

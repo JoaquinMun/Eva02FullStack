@@ -1,4 +1,5 @@
 import HeaderOrganism from "components/organisms/HeaderOrganisms/Header";
+import ProyectosSection from "components/organisms/Proyectos/cardsProyecto";
 import React from "react";
 
 
@@ -6,9 +7,10 @@ const HomeLayout: React.FC = () => {
   return (
     <>
       <HeaderOrganism />
-      <main style={{ padding: "20px" }}>
-        <h1>Welcome to my portfolio</h1>
-      </main>
+      <ProyectosSection/>
+      <main style={{ padding: "20px",backgroundColor:"#030712" }}>
+       
+       </main>
     </>
   );
 };

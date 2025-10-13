@@ -25,7 +25,7 @@ const NavBar: React.FC = () => {
         <NavBarLinks />
       </div>
 
-      <ButtonHea text="Interesado?" />
+      <ButtonHea text="Descargar CV" />
     </Header>
   );
 };

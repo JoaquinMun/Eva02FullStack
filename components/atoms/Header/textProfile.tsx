@@ -8,7 +8,7 @@ const ProfileText = ({ text = "" }) => {
       </h2>
       <p style={{ margin: "0" }}>
         <span style={{ color: "#033e97ff" }}>
-          Ingeniero en Informática / Técnico en Conectividad y Redes
+           Estudiante de Ingeniero en Informática / Técnico en Conectividad y Redes
         </span>
         <br />
         <span style={{ color: "#666" }}>{text}</span>

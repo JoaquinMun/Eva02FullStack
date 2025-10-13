@@ -12,4 +12,12 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+  .contenedor-proyectos {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, minmax(420px, 1fr));
+  margin-top: 80px;
+  align-items: stretch;
+  justify-items: center;
+}
 }
