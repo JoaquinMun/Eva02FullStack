@@ -14,8 +14,8 @@ type Props = {
 const cardStyle: React.CSSProperties = {
   display: "flex",
   flexDirection: "column",
-  width: 540,
-  height: 610,
+  width: "100%",
+  height: "auto",
   border: "1px solid rgba(255,255,255,0.05)",
   borderRadius: 16,
   overflow: "hidden",
@@ -29,7 +29,7 @@ const cardStyle: React.CSSProperties = {
 
 const imagenContainerStyle: React.CSSProperties = {
   width: "100%",
-  height : "55%",
+  height : "auto",
   objectFit : "cover"
 };
 
@@ -48,6 +48,8 @@ const tecnologiasStyle: React.CSSProperties = {
   gap: 16,
   marginTop: 12,
 };
+
+
 
 const CardProyecto = ({ titulo, descripcion, imagen, tecnologias }: Props) => {
 
