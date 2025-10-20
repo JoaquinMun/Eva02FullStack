@@ -1,11 +1,17 @@
 import React from "react";
 import { Layout, Button } from "antd";
 import NavBarLinks from "../../atoms/Header/NavbarLinks";
-import ButtonHea from "../../atoms/Header/btn";
 
 const { Header } = Layout;
 
 const NavBar: React.FC = () => {
+  const handleOpen = () => {
+    window.open(
+      "https://docs.google.com/document/d/1_dGqivLsKb8dZ5WtZOAu63SOoRGF4bELk2yx3d3CjVs/edit?usp=sharing",
+      "_blank"
+    );
+  };
+
   return (
     <Header
       style={{
@@ -25,7 +31,9 @@ const NavBar: React.FC = () => {
         <NavBarLinks />
       </div>
 
-      <ButtonHea text="Descargar CV" />
+      <Button type="primary" onClick={handleOpen}>
+        Descargar CV
+      </Button>
     </Header>
   );
 };
